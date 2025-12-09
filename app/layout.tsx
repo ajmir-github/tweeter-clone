@@ -7,7 +7,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-slate-200 p-4 flex justify-center min-h-screen w-full">
+        <div className="grow max-w-6xl">{children}</div>
+      </body>
     </html>
   );
 }

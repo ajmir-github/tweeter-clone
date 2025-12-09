@@ -7,8 +7,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-slate-200 p-4 flex justify-center min-h-dvh w-full">
-        <div className="grow max-w-6xl">{children}</div>
+      <body className="bg-slate-200 flex justify-center h-dvh w-full overflow-hidden">
+        <div className="grow max-w-6xl p-4 h-full">{children}</div>
       </body>
     </html>
   );

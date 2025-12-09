@@ -10,7 +10,7 @@ import NavLink from "./NavLink";
 
 export default function Sidebar() {
   return (
-    <div className="bg-white rounded-xl p-4 flex flex-col items-center md:items-start gap-4 shadow">
+    <div className="bg-white rounded-xl p-4 flex flex-col items-center md:items-start gap-4 stickay top-2 bottom-2">
       <div className=" grow flex flex-col items-center md:items-start gap-4">
         <NavLink href="/" name="Home" icon={<HomeIcon />} />
         <NavLink href="/search" name="Search" icon={<SearchIcon />} />
